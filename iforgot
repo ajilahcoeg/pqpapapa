@@ -78,12 +78,5 @@ dragonbloxultSection:NewButton("drago", "banana", function()
 end)
 
 dragonbloxultSection:NewButton("dragon psatir", "itsly", function()
-    loadstring(game:HttpGet(("https://aizen.ml/uploads/dbu.lua")))()
-end)
-
-local Tab = Window:NewTab("MiSc")
-local MiScSection = Tab:NewSection("lool)
-
-MiScSection:NewButton("aimr", "itsly", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/1Gp9c57U"))()
 end)
