@@ -84,7 +84,6 @@ end)
 local Tab = Window:NewTab("MiSc")
 local MiScSection = Tab:NewSection("lool)
 
-dragonbloxultSection:NewButton("aimr", "itsly", function()
+MiScSection:NewButton("aimr", "itsly", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/1Gp9c57U"))()
 end)
-
