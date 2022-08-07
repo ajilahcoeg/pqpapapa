@@ -80,3 +80,13 @@ end)
 mikscriptSection:NewButton("aimhead", "itsly", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/1Gp9c57U"))()
 end)
+
+local Tab = Window:NewTab("drgblox")
+local drgbloxSection = Tab:NewSection("lol")
+drgbloxSection:NewButton("forgotthename", "work", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Allusia1/HereYouGo/main/ItsDone.lua"))()
+end)
+
+drgbloxSection:NewButton("fortheultimateblox", "itsly", function()
+    loadstring(game:HttpGet("https://robloxhubop.ml/raw/leranebimu"))()
+end)
