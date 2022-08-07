@@ -1,0 +1,81 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("rifan love dhewa", "DarkTheme")
+local Tab = Window:NewTab("ur mom")
+local Section = Tab:NewSection("rifan sepong dhewa")
+
+Section:NewButton("inf jump", "broken", function()
+    local InfiniteJumpEnabled = true
+game:GetService("UserInputService").JumpRequest:connect(function()
+	if InfiniteJumpEnabled then
+		game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+	end
+end)
+end)
+
+Section:NewButton("free emotes", "use on pof", function()
+    for i,real in pairs(game.Players.LocalPlayer.Emotes:GetChildren()) do
+real.Value = true
+end
+end)
+
+Section:NewButton("get item", "only work for some game", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Bebo-Mods/BeboScripts/main/StandAwekening.lua"))()
+end)
+
+local Tab = Window:NewTab("soggy")
+local soggySection = Tab:NewSection("lol")
+soggySection:NewButton("car crusher", "idk work or not", function()
+    loadstring(game:HttpGet("https://soggyhubv2.vercel.app"))()
+end)
+
+Section:NewToggle("Toggle", "ToggleInfo", function(state)
+    if state then
+        print("Toggle On")
+    else
+        print("Toggle Off")
+    end
+end)
+
+Section:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.F, function()
+	Library:ToggleUI()
+end)
+
+soggySection:NewButton("miner clicker sim", "idk work or not", function()
+    loadstring(game:HttpGet("https://soggyhubv2.vercel.app"))()
+end)
+
+soggySection:NewButton("bid battle", "idk work or not", function()
+    loadstring(game:HttpGet("https://soggyhubv2.vercel.app"))()
+end)
+
+soggySection:NewButton("basketball pro sim", "idk work or not", function()
+    loadstring(game:HttpGet("https://soggyhubv2.v.ercel.app"))()
+end)
+
+local Tab = Window:NewTab("Dahood")
+local DahoodSection = Tab:NewSection("lol")
+DahoodSection:NewButton("dahood", "its work nicely", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Allvideo/test/main/Whitelist.txt"))()
+end)
+
+DahoodSection:NewButton("dahood2", "its work nicely", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
+end)
+
+DahoodSection:NewButton("dahood3", "its work nicely", function()
+    loadstring(game:GetObjects("rbxassetid://5812737894")[1].Source)()
+end)
+
+DahoodSection:NewButton("dahood faded", "its work nicely", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
+end)
+
+local Tab = Window:NewTab("dragonbloxult")
+local dragonbloxultSection = Tab:NewSection("lol")
+dragonbloxultSection:NewButton("drago", "banana", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptRUs/Banana/main/DragonBloxGuiRedo.lua"))()
+end)
+
+dragonbloxultSection:NewButton("dragon psatir", "itsly", function()
+    loadstring(game:HttpGet(("https://aizen.ml/uploads/dbu.lua")))()
+end)
