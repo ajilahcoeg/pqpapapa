@@ -81,7 +81,7 @@ dragonbloxultSection:NewButton("dragon psatir", "itsly", function()
     loadstring(game:HttpGet(("https://aizen.ml/uploads/dbu.lua")))()
 end)
 
-local Tab = Window:NewTab("MicsScript")
+local Tab = Window:NewTab("MiSc")
 local MiScSection = Tab:NewSection("lool)
 MiScSection:NewButton("aimbot", "itsly", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/1Gp9c57U"))()
